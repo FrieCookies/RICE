@@ -1,8 +1,8 @@
 Welcome to the aerosol refractive index confidence explorer (RICE) 1.0. RICE is a tool that helps understand uncertainties associated with aerosol refractive index (m) calculations by calculating the probability that nearby m values could have caused the originally retrieved m value.
 To use RICE, you will need:
 1. 2D particle size distribution time series wave (dN/dLogD, with size bins in rows, time points in columns, and values as the number concentration)
-2. 1D particle size bin location wave, with the midpoint diameter of each size bin used to measure the size distribution. This wave must have the same number of rows as the size distribution.
-3.1D single wavelength absorption and scattering coefficient waves. These waves must both have the same number of points as the columns of the size distribution.
+2. 1D particle size bin location wave (in nm), with the midpoint diameter of each size bin used to measure the size distribution. This wave must have the same number of rows as the size distribution.
+3.1D single wavelength absorption and scattering coefficient waves( in Mm-1). These waves must both have the same number of points as the columns of the size distribution.
 4.The relative measurement uncertainties (expressed as fraction of the observation) of the optical measurements, size distribution bin locations**, and size distribution number concentrations**. Ideally, these should be calculated from the specific measurement systems used, not literature- based values.
 5. If using the chi-squared method to calculate m, the standard deviations associated with the averaging of the absorption and scattering coefficient waves.
 **In RICE 1.0 size distribution and number concentration uncertainties are treated as uniform over the whole size distribution.
