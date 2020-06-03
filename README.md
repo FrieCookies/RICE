@@ -31,4 +31,5 @@ After RICE has completed, you'll have the following data:
 
 
 RICE Reanalysis:
+
 Once a RICE result has been obtained, intervals at different confidence levels can be obtained by using the RICE Reanalysis menu function. This allows the user to calculate new confidence intervals from any RICE_Output wave. Before using the reanalysis function, set the current data folder to the folder which contains the RICE results.
