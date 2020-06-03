@@ -519,7 +519,7 @@ if (RI_t_series[iq]>0) // doesn't analyze nan or negative n values
 		endfor
 
 
-// print "number of iterations=",iter,"n range=",RI_t_series[iq],"±", n_width,"k range=", k_t_series[iq],"±", k_width," n values every", n_step,"k values every", k_step
+// print "number of iterations=",iter,"n range=",RI_t_series[iq],"Â±", n_width,"k range=", k_t_series[iq],"Â±", k_width," n values every", n_step,"k values every", k_step
 		print "point",iq+1,"of", numpnts(RI_t_series)
 
 
