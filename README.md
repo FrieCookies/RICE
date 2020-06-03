@@ -1,6 +1,7 @@
 
 
 Guidance on the use of RICE
+
 Welcome to the aerosol refractive index confidence explorer (RICE) 1.0. RICE is a tool that helps understand uncertainties associated with aerosol refractive index (m) calculations by calculating the probability that nearby m values could have caused the originally retrieved m value.  RICE should be compiled in Igor Pro by WaveMetrics.
 
 To use RICE, you will need:
