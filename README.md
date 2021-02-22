@@ -2,7 +2,7 @@
 
 Guidance on the use of RICE
 
-Welcome to the aerosol refractive index confidence explorer (RICE) 1.0. RICE is a tool that helps understand uncertainties associated with aerosol refractive index (m) calculations by calculating the probability that nearby m values could have caused the originally retrieved m value.  RICE should be compiled in Igor Pro by WaveMetrics.
+Welcome to the refractive index confidence explorer (RICE) 1.0. RICE is a tool that helps understand uncertainties associated with refractive index (m) retrievals from aerosols by calculating the probability that nearby m values could have caused the originally retrieved m value.  RICE should be compiled in Igor Pro by WaveMetrics.
 
 To use RICE, you will need:
 1. 2D particle size distribution time series wave (dN/dLogD,  with size bins in rows, time points in columns, and values as the number concentration)
